@@ -30,7 +30,7 @@ public class Main {
                 break;
             case 4:
                 moneda = convertir.conversion("PEN", "ARS", cantidad);
-                System.out.println("El monto en "+cantidad+"PEN convertido ARS es: "+moneda.conversion_result());
+                System.out.println("El monto en "+cantidad+"PEN convertido a ARS es: "+moneda.conversion_result());
                 break;
             default:
                 break;
