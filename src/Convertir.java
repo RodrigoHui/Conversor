@@ -24,8 +24,6 @@ public class Convertir {
             throw new RuntimeException(e);
         }
 
-        String json = response.body();
         return  new Gson().fromJson(response.body(), Moneda.class);
-
     }
 }
